@@ -4,7 +4,7 @@ import disnake
 from disnake.ext import commands
 
 
-bot = commands.Bot(command_prefix=".", help_command=None, intents=disnake.Intents.all(), test_guilds=[1081203721607847956, 1229395978080092191], activity=disnake.Game(name="Вибираю тобі роль..."))
+bot = commands.Bot(command_prefix=".", help_command=None, intents=disnake.Intents.all(), test_guilds=[], activity=disnake.Game(name="Вибираю тобі роль..."))
 
 @bot.command()
 @commands.is_owner()
